@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import logo from './image/Garyssteaks food truck catering logo cheesesteaks and hoagies.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Garyssteaks NYC <a href="https://garyssteaks.com/book-food-truck/">Food Truck Catering</a> - Cheesesteaks & Hoagies</h1>
+        <div><a href="https://garyssteaks.com/"><figure><img src={logo} /></figure></a></div>
       </header>
+      
     </div>
   );
 }
